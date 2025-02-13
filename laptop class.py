@@ -16,4 +16,3 @@ dell.processor="i7"
 dell.ram="16GB"
 
 print(hp.price)
-hp
