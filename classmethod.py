@@ -11,6 +11,7 @@ class laptop():
     def getprice(self):
         print(self.price)
 
+    @classmethod
     def changechargertype(cls):
         cls.chargertype="b-type"
         print("charger type change to b-type")
@@ -19,4 +20,4 @@ hp=laptop()
 hp.setprice(20000)
 hp.getprice()
 
-laptop.changechargertype(laptop)
+laptop.changechargertype()
