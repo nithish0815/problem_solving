@@ -15,9 +15,13 @@ class laptop():
     def changechargertype(cls):
         cls.chargertype="b-type"
         print("charger type change to b-type")
+    @staticmethod
+    def info():
+        print("laptop")
 
 hp=laptop()
 hp.setprice(20000)
 hp.getprice()
 
 laptop.changechargertype()
+hp.info()
