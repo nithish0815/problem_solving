@@ -6,8 +6,6 @@ def get_single_digit(n):
             n //= 10
         n = sum_digits
     return n
-
-# Example usage
 n = 50113
 result = get_single_digit(n)
 print("Single digit result:", result)
