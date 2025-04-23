@@ -1,5 +1,4 @@
 n = int(input("enter the number:"))
-#list
 list = []
 sum = 0
 
@@ -12,3 +11,4 @@ if sum == n:
     print("true")
 else:
     print("false")
+
