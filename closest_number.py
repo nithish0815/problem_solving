@@ -5,7 +5,7 @@ closest = nums[0]
 min_diff = abs(target - closest)
 
 for num in nums:
-    diff = abs(target - num)
+    diff = abs(target - num);
     if diff < min_diff:
         min_diff = diff
         closest = num
